@@ -1,29 +1,162 @@
-*{
-margin: 0;
-padding: 0;
+*{margin: 0PX;
+    padding: 0px;
+}.principal{
+    width: 100%;
+    height: 60px;
+    background-color: #ffff;
+}
+header {
+  width: 100%;
+  height: 80px;
+    background-color: bisque;
+     border: black 3px dashed;
+}.logo {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 50px;
+  float: left;
+}
+.logoResponsive {
+  width: 50px;
+  margin-top: 5px;
+  float: right;
+  display: none;
+}
+.nav {
+  width: 500px;
+  float: left;
+  margin-left: 250px;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.bt {
+  float:left;
+ margin-right: 105px;
+  padding: 10px;
+  background: ;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.bt:hover {
+  color: #ffffff;
+  background-color:#db36a4 ;
+}
+.mas {
+  display: flex;
+  flex-direction: column;
+}
+.bt4 {
+}
+.botones4 {
+  list-style: none;
+ display:none;
+}
+.mostrar {
+  display: block;
+}
+.mas:hover {
+  background-color: #db36a4;
+}
+.botones4 a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    
+   
+}
+
+.botones4 a li {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: #ffffff;
+ 
+
+  
+}
+.botones4 a li:hover {
+  background-color:bisque;
+}
+
+/*SECCION DEL MENU RESPONSIVE*/
+.cajaDeIconosResponsive {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#iconoMenuResposive {
+  width: 35px;
+  margin-top: 10px;
+  float: left;
+  display: none;
+  margin-left: 10px;
+}
+#iconoMenuCerrar {
+  width: 25px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.none {
+  display: none;
+}
+.cajaDeIconosResponsive {
+  display: none;
+}
+section{
+    width: 100%;
+    
+    
+   
+}
+.cajatexto{
+    width: 400px; /* ancho*/
+    height: 300px;
+    background-color: bisque;
+    margin-top: 20px;
+    
+   margin-left: 20px;
+    
+    
+    
+} 
+.cajatexto h1{
+    font-size: 25px;
+    color: #ffff;
+    padding: 15px;
+    
 }
 
 
 .dos{ /* caja dos*/
     width: 499px; /* ancho*/
     height: 350px;/*alto */
-    float:left;/*hacia la izquierda */
     background: cyan;/*color de fondo */
-    margin-top: 10px;/* m hacia arriba*/
-    margin-left: 20px;/* m hacia la izquiera*/
+    margin-top: 15px;/* m hacia arriba*/
+    margin-right: 74px;
     margin-bottom: 10px; /* anchura inferior */
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); /* sombra*/
     overflow: hidden; /* no mostrar*/
-    float: left; /*hacia la izq */
+    float: right; /*hacia la izq */
+    margin-left: 100px;
+    
+    
 }
 .dos img{ /* propiedad img*/
    width: 499px; /* ancho*/
    height: 350px;/* alyto*/
    margin-left: 0%;
    border-radius: 2%;/* radio*/
-   margin-top: 5%;
+   
 }
 .dos ul{ /* dos listas */
   display: flex; /* comportamiento */
@@ -45,16 +178,12 @@ list-style: none; /* no mostrar n lista*/
 50%{margin-left:-200%;}
 70%{margin-left: -200%;}
 }
-/* */
-.tres{
-  width: 45%;/*ancho*/
-  height: 350px;/*alto*/
-  background-color: #ffccee;/*color*/
-  margin-left: 650px;/*establece margen de izquierda*/
-  margin-top: 20px;/*establece margen de arriba*/
-}
-.as h1{
-  margin-top: 65PX;
+.medio{
+    width: 80%;
+    margin-left: 170px;
+    height: 75px;
+    background-color: antiquewhite;
+    margin-top: 50px;
 }
 
 .tarjeta_2{
@@ -67,6 +196,9 @@ list-style: none; /* no mostrar n lista*/
       text-align: center;/*justuficar texto*/
       transition: all 0.25s;/*controla tiempo de animacions*/
       margin-left: 50px;
+   
+   
+   
 
       }
 .tarjeta_2:hover{
@@ -88,15 +220,12 @@ list-style: none; /* no mostrar n lista*/
   font-weight: 300px;/*establece de una vez los valores de font*/
   font-size: 26px;
 }
-.tarjeta_1 a{
+.tarjeta_2 a{
   font-weight: 500;/*establece de una vez los valores de font*/
   text-decoration: none;/*decoracion del texto*/
   color :#ace7ff;
   font-size: 25px;/*tamaño letrs*/
 }
-
-
-
 .tarjeta_3{
   width: 330PX;
   height: 430PX;
@@ -142,6 +271,7 @@ list-style: none; /* no mostrar n lista*/
       transition: all 0.25s;/*controla tiempo de animacions*/
       margin-left: 850px;
       margin-top: -452px;
+    
 
       }
 .tarjeta_4:hover{
@@ -163,45 +293,91 @@ list-style: none; /* no mostrar n lista*/
   font-weight: 300px;/*establece de una vez los valores de font*/
   font-size: 26px;/*tamaño de letra*/
 }
-.asd{
-  height: 65PX; /*alto*/
-  width: 100%;/*ancho*/
-  background-color: #ffccee;
-
+.ultimo{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    border: black 3px dashed;
 }
-.cuadro_4{
-  width: 100%;/*ancho*/
-  height: 85px;/*alto*/
-  background-color: #FADBD8 ;/*color*/
-  flex-wrap: wrap;
+/* ----------- */
+@media only screen and (max-width: 767px) {
+  .cajaDeIconosResponsive {
+    display: block;
+  }
+    .principal {
+        display: none;
+    }
+  
+  .logo {
+    display: none;
+  }
+  .logoResponsive {
+    display: block;
+    float: right;
+  }
+  nav {
+    float: left;
+  }
+  .activarNav {
+    background-color: #16a085;
+    width: 80%;
+    height: 1000px;
+  }
 
+  .nav {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: none;
+  }
+  .activarBotones {
+    display: block;
+  }
+  .bt {
+    display: block;
+    float: none;
+    margin-right: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #iconoMenuResposive {
+    display: block;
+    float: left;
 }
-@media only screen and (max-width: 767px){
-    .dos{
-        width: 100%;
-        height: 200px;
-    }.dos img{
-       
-        width: 100%;
-        height: 200px;
-        display: flex;
-       
-    }.dos ul{
-        width: auto;
-    }.dos li{
-        display:block
-        list-style: none;
-    }.as h1{
-        font-size: 15px;
-        list-style: none;
+ 
+.dos{
+    width: 90%;
+    margin-left:10px;
+    height: 200px;
+    display: none;
+
+    
+    }
+    .cajatexto{
         
-    }.tres{
+    }
+    .medio{
+        margin-top: 40px;
+        margin-left: 45px;    
+    }
+    .tarjeta_2{
         width: 100%;
-    }.tarjeta_2{
-     width: auto;
-        height: auto;
-    }
-    tarjeta_3{
-    list-style: none;
-       
-    }
+        margin-left: auto;
+        margin-top: 40px;
+    }.tarjeta_3{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 80px;
+    
+        
+        }.tarjeta_4{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 120px;
+    
+        
+        }
+}
