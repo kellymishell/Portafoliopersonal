@@ -8,8 +8,15 @@
 header {
   width: 100%;
   height: 80px;
-    background-color: bisque;
-     border: black 3px dashed;
+    background-color: background: rgba(251,166,225,1);
+background: -moz-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,166,225,1)), color-stop(26%, rgba(243,125,208,1)), color-stop(50%, rgba(235,88,193,1)), color-stop(85%, rgba(224,33,170,1)), color-stop(100%, rgba(224,33,170,1)));
+background: -webkit-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -o-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -ms-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: linear-gradient(to right, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fba6e1', endColorstr='#e021aa', GradientType=1 );
+    
 }.logo {
   width: 50px;
   margin-top: 5px;
@@ -25,7 +32,7 @@ header {
 .nav {
   width: 500px;
   float: left;
-  margin-left: 250px;
+  margin-left: 160px;
   list-style: none;
   margin-top: 12px;
 }
@@ -119,27 +126,29 @@ section{
 .cajatexto{
     width: 400px; /* ancho*/
     height: 300px;
-    background-color: bisque;
+    background-color: #db36a4;
     margin-top: 20px;
     
-   margin-left: 20px;
-    
-    
+   border-radius: 67px 64px 64px 64px;
+-moz-border-radius: 67px 64px 64px 64px;
+-webkit-border-radius: 67px 64px 64px 64px;
+border: 18px double #fff;
     
 } 
 .cajatexto h1{
     font-size: 25px;
     color: #ffff;
     padding: 15px;
+    position: inherit;
     
 }
 
 
 .dos{ /* caja dos*/
-    width: 499px; /* ancho*/
-    height: 350px;/*alto */
+    width: 450px; /* ancho*/
+    height: 340px;/*alto */
     background: cyan;/*color de fondo */
-    margin-top: 15px;/* m hacia arriba*/
+    margin-top: -300px;/* m hacia arriba*/
     margin-right: 74px;
     margin-bottom: 10px; /* anchura inferior */
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -152,8 +161,8 @@ section{
     
 }
 .dos img{ /* propiedad img*/
-   width: 499px; /* ancho*/
-   height: 350px;/* alyto*/
+   width: 450px; /* ancho*/
+   height: 340px;/* alyto*/
    margin-left: 0%;
    border-radius: 2%;/* radio*/
    
@@ -178,12 +187,20 @@ list-style: none; /* no mostrar n lista*/
 50%{margin-left:-200%;}
 70%{margin-left: -200%;}
 }
-.medio{
-    width: 80%;
-    margin-left: 170px;
-    height: 75px;
-    background-color: antiquewhite;
-    margin-top: 50px;
+.as{
+    width: 800px;
+    height: 60px;
+    margin-top: 150PX;
+     background-color: background: rgba(251,166,225,1);
+background: -moz-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,166,225,1)), color-stop(26%, rgba(243,125,208,1)), color-stop(50%, rgba(235,88,193,1)), color-stop(85%, rgba(224,33,170,1)), color-stop(100%, rgba(224,33,170,1)));
+background: -webkit-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -o-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -ms-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: linear-gradient(to right, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+}
+.as h1{
+  margin-top: 65PX;
 }
 
 .tarjeta_2{
@@ -196,9 +213,7 @@ list-style: none; /* no mostrar n lista*/
       text-align: center;/*justuficar texto*/
       transition: all 0.25s;/*controla tiempo de animacions*/
       margin-left: 50px;
-   
-   
-   
+    margin-top: 100px;
 
       }
 .tarjeta_2:hover{
@@ -231,12 +246,12 @@ list-style: none; /* no mostrar n lista*/
   height: 430PX;
   border-radius: 8PX;/*le da la forma al borde*/
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
-      overflow: hidden;/*agrga contenido dentro de la caja*/
-      margin: 20px;
+      overflow: hidden; /*agrga contenido dentro de la caja*/
+      margin: 20px;/*margen*/
       text-align: center;/*justuficar texto*/
       transition: all 0.25s;/*controla tiempo de animacions*/
-      margin-left: 450px;
-      margin-top: -452px;
+      margin-left: 420px;
+    margin-top: -445px;
 
       }
 .tarjeta_3:hover{
@@ -250,7 +265,7 @@ list-style: none; /* no mostrar n lista*/
 
 }
 .tarjeta_3 h1 {
-  font-weight: 600px;
+  font-weight: 600px; /*establece de una vez los valores de font*/
 
 }
 .tarjeta_3 p  {
@@ -258,20 +273,24 @@ list-style: none; /* no mostrar n lista*/
   font-weight: 300px;/*establece de una vez los valores de font*/
   font-size: 26px;
 }
-
+.tarjeta_3 a{
+  font-weight: 500;/*establece de una vez los valores de font*/
+  text-decoration: none;/*decoracion del texto*/
+  color :#ace7ff;
+  font-size: 25px;/*tamaño letrs*/
+}
 
 .tarjeta_4{
   width: 330PX;
   height: 430PX;
-  border-radius: 8PX;
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-      overflow: hidden;/*agrga contenido dentro de la caja*/
-      margin: 20px;
+  border-radius: 8PX;/*le da la forma al borde*/
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);/*agrgar sombras*/
+      overflow: hidden; /*agrga contenido dentro de la caja*/
+      margin: 20px;/*margen*/
       text-align: center;/*justuficar texto*/
       transition: all 0.25s;/*controla tiempo de animacions*/
-      margin-left: 850px;
-      margin-top: -452px;
-    
+      margin-left: 820px;
+    margin-top: -445px;
 
       }
 .tarjeta_4:hover{
@@ -285,20 +304,34 @@ list-style: none; /* no mostrar n lista*/
 
 }
 .tarjeta_4 h1 {
-  font-weight: 600px;/*establece de una vez los valores de font*/
+  font-weight: 600px; /*establece de una vez los valores de font*/
 
 }
 .tarjeta_4 p  {
   padding: 0 inherit;
   font-weight: 300px;/*establece de una vez los valores de font*/
-  font-size: 26px;/*tamaño de letra*/
+  font-size: 26px;
 }
-.ultimo{
+.tarjeta_4 a{
+  font-weight: 500;/*establece de una vez los valores de font*/
+  text-decoration: none;/*decoracion del texto*/
+  color :#ace7ff;
+  font-size: 25px;/*tamaño letrs*/
+}
+
+.as2{
     width: 100%;
     height: 60px;
-    background-color: antiquewhite;
-    border: black 3px dashed;
+    margin-top: 50PX;
+     background-color: background: rgba(251,166,225,1);
+background: -moz-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,166,225,1)), color-stop(26%, rgba(243,125,208,1)), color-stop(50%, rgba(235,88,193,1)), color-stop(85%, rgba(224,33,170,1)), color-stop(100%, rgba(224,33,170,1)));
+background: -webkit-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -o-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: -ms-linear-gradient(left, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
+background: linear-gradient(to right, rgba(251,166,225,1) 0%, rgba(243,125,208,1) 26%, rgba(235,88,193,1) 50%, rgba(224,33,170,1) 85%, rgba(224,33,170,1) 100%);
 }
+
 /* ----------- */
 @media only screen and (max-width: 767px) {
   .cajaDeIconosResponsive {
@@ -319,7 +352,7 @@ list-style: none; /* no mostrar n lista*/
     float: left;
   }
   .activarNav {
-    background-color: #16a085;
+    background-color: antiquewhite;
     width: 80%;
     height: 1000px;
   }
@@ -357,27 +390,32 @@ list-style: none; /* no mostrar n lista*/
     
     }
     .cajatexto{
-        
+        width: auto;
     }
-    .medio{
-        margin-top: 40px;
-        margin-left: 45px;    
+    .as{
+       
+        width: auto;
     }
     .tarjeta_2{
         width: 100%;
         margin-left: auto;
         margin-top: 40px;
+        background-color: antiquewhite;
     }.tarjeta_3{
         width: 100%;
         margin-left: auto;
         margin-top: 80px;
+        background-color: antiquewhite;
     
         
         }.tarjeta_4{
         width: 100%;
         margin-left: auto;
         margin-top: 120px;
-    
+    background-color: antiquewhite;
         
-        }
+        }.as2{
+       
+        width: auto;
+    }
 }
